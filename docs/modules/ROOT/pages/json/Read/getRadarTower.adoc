@@ -1,35 +1,30 @@
-= Power Slug
+= Radar Tower
 
 :url-repo: https://www.github.com/porisius/FicsitRemoteMonitoring
 
-URI Handler: getPowerSlug +
+URI Handler: getRadarTower +
 
 [cols="1,2,1,1"]
 |===
 |JSON/JSON Group: |Info: |Data Type: |Input/Output:
 
-|ID
-|Slug ID
+|RadarName
+|Radar Name
 |Integer
 |Output
 
 |location/x
-|X Location of Slug
+|X Location of Tower
 |Float
 |Output
 
 |location/y
-|Y Location of Slug
+|Y Location of Tower
 |Float
 |Output
 
 |location/z
-|Z Location of Slug
-|Float
-|Output
-
-|location/Rotation
-|Compass Heading of Slug
+|Z Location of Tower
 |Float
 |Output
 
